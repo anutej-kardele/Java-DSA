@@ -10,13 +10,13 @@ public class PN69 {
         int previousMultiIndex = 0;
         long multi = 0;
 
-        for(int i = 0; i < 1000000; i++){
+        for(long i = 0; i < 999999999; i++){
             multi = i * i;
-            if(multi == x) return i;
+            if(multi == x) return (int)i;
             else if(multi > x) {
                 return previousMultiIndex;
             }
-            previousMultiIndex = i;
+            previousMultiIndex = (int)i;
         }
 
         return 0;
