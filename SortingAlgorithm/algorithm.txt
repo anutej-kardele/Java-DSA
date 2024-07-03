@@ -1,0 +1,46 @@
+Work on DSA before working on this algorithm 
+
+breath first search
+depth first search 
+dynamic programming 
+backtracking 
+sliding window 
+top k elements 
+dijkstra's algorithm 
+topological sort 
+
+
+data structure 
+
+graphs  -   graph search  - Depth first search, Breath first search, Dijkstra algorithm  
+Tolological sort 
+Loop in a graph 
+
+stack / queue   -  implemented by Array & LinkedList   - Largest rectangle in histogram 
+
+HashTable / HashMap
+
+binary tree   -  binary trees are perfect candidate to use recursion 
+tree traversal  -  pre-order, post-order, in-order, level order 
+
+heap - maxHeap, minHeap
+heapify 
+heap sort 
+median of stream 
+
+
+
+
+Sorting algorithm https://www.crio.do/blog/top-10-sorting-algorithms/
+
+Bubble sort - Space : O(1) - Time : O(n^2)
+Selection sort - Space : O(1) - Time : O(n^n)
+Insertion sort - Space : O(1) - Time : O(n^n)
+Quick sort - Space : O(1) - Time : O(n^n)
+Merge sort - Space : O(n) - Time : O(n*logn)
+Counting sort - Space : O(k) - Time : O(n+k)
+Radix sort - Space : O(n+k) - Time : O(nk)
+Bucket sort - Space : O(n) - Time : O(n^2)
+Comb sort - Space : O(1) - Time : O(n^2)
+Shell sort - Space : O(1) - Time : Depends on gap size 
+
