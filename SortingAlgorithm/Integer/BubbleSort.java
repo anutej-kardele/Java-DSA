@@ -1,4 +1,5 @@
 // this algorithm checks 2 consecutive numbers and arranges them as required
+package SortingAlgorithm.Integer;
 
 class BubbleSort{
    public static void main(String[] args){
@@ -6,12 +7,16 @@ class BubbleSort{
       int[] list = {4, 6, 1, 8, 5, 9, 0, 7, 2, 3};
 
       list = AssendingSort(list);
-      for(int in: list) System.out.print(in + " ");
+      for(int in: list) {
+         System.out.print(in + " ");
+      }
 
       System.out.println();
 
       list = DecendingSort(list);
-      for(int in: list) System.out.print(in + " ");
+      for(int in: list) {
+         System.out.print(in + " ");
+      }
    }
 
    static int[] AssendingSort(int[] val){
