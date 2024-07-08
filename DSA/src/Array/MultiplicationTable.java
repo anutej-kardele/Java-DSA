@@ -3,12 +3,12 @@ package Array;
 public class MultiplicationTable {
 
     public static void main(String[] args){
-        MultiplicationTable(5);
-        MultiplicationTable(19);
-        MultiplicationTable(33);
+        MultiplicationOutput(5);
+        MultiplicationOutput(19);
+        MultiplicationOutput(33);
     }
 
-    public static void MultiplicationTable(int value){
+    public static void MultiplicationOutput(int value){
 
         for(int i = 1; i <= 10; i++){
             System.out.println(value + " x " + i + " = " + value*i);

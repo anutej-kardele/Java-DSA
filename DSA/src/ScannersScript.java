@@ -17,5 +17,6 @@ public class ScannersScript {
         char val3 = sc.next().charAt(0);
         System.out.println("Enter char - " + val3);
 
+        sc.close();
     }
 }

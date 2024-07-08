@@ -7,9 +7,9 @@ public class ArrayRepresentation {
 
         // Declaring an array - Initialize
         int arr[] = new int[5];
-        int []arr1 = new int[10];
-        int[] arr2 = new int[10];
-        int arr3[]  = {1,2,3,4,5};
+        //int []arr1 = new int[10];
+        //int[] arr2 = new int[10];
+        //int arr3[]  = {1,2,3,4,5};
 
         // storing value in array
         System.out.println("----------------Storing Value----------------");
@@ -25,6 +25,8 @@ public class ArrayRepresentation {
         for (int i = 0; i < arr.length; i++){
             System.out.println("Value for index " + i + " is " + arr[i]);
         }
+
+        sc.close();
 
         // array work on linear data allocation
         // for example for an array [0,1,2,3,4]

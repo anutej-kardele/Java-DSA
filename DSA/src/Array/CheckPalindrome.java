@@ -39,7 +39,6 @@ public class CheckPalindrome {
     public static boolean isPalindromeString(String x) {
 
         String temp = x;
-        int[] newGuess = new int[temp.length()];
         int temp2 = temp.length() - 1;
         for(int i = 0; i < (temp.length() / 2); i++){
           if(temp.charAt(i) != temp.charAt(temp2 - i)){
