@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "DSA/src",
+        "HackerRank",
+        "OOPs"
+    ],
+    "java.project.referencedLibraries": []
+}
