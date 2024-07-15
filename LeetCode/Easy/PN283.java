@@ -3,42 +3,44 @@ package LeetCode.Easy;
 public class PN283 {
 
     public static void main(String[] args) {
-        int[] nums = {0, 1, 0, 3, 12};
+        //int[] nums = {0, 1, 0, 3, 12};
         //int[] arr = {1,0};
-        //int[] arr = {4,0,2,6,0};
+        int[] nums = {4,0,2,6,0};
         
 
-        // for(int i = arr.length - 1; i >= 0; i--) {
-        //     if(arr[i] == 0)LeftShilft(arr, i);
-        // }
-
-        // for (int i : arr) {
-        //     System.out.print(i + " ");   
-        // }
-
-        int lastindex = nums.length - 1;
-        int firstIndex= 0;
-
-        int[] arr2 = new int[nums.length];
-
-        for(int i = 0; i < nums.length; i++){
-
-
-            if(nums[i] == 0){
-                arr2[lastindex] = nums[i];
-                lastindex--;
-            }
-            else{
-                arr2[firstIndex] = nums[i];
-                firstIndex++;
-            }
+        for(int i = nums.length - 1; i >= 0; i--) {
+            if(nums[i] == 0)LeftShilft(nums, i);
         }
-
-        nums = arr2;
 
         for (int i : nums) {
-            System.out.print(i + " ");
+            System.out.print(i + " ");   
         }
+
+        // using a new array to store the data 
+
+        // int lastindex = nums.length - 1;
+        // int firstIndex= 0;
+
+        // int[] arr2 = new int[nums.length];
+
+        // for(int i = 0; i < nums.length; i++){
+
+
+        //     if(nums[i] == 0){
+        //         arr2[lastindex] = nums[i];
+        //         lastindex--;
+        //     }
+        //     else{
+        //         arr2[firstIndex] = nums[i];
+        //         firstIndex++;
+        //     }
+        // }
+
+        // nums = arr2;
+
+        // for (int i : nums) {
+        //     System.out.print(i + " ");
+        // }
 
     }
 
