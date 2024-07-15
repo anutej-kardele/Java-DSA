@@ -1,7 +1,5 @@
 package Array;
 
-import sun.security.util.Debug;
-
 import java.util.HashMap;
 
 public class TwoSum {

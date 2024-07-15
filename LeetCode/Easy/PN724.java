@@ -15,8 +15,6 @@ public class PN724 {
         
         int leftSum = 0;
         int rightSum = 0;
-
-        int n = nums.length - 1;
         
         for(int i = 0; i < nums.length; i++){
             
