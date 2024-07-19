@@ -6,41 +6,9 @@ public class FrequencyOfCharacter {
 
     public static void main(String[] args){
 
-        String str = "GeeksForGeeks";
-        //String str = "I am Anutej, writing this to test frequency of charector in a string";
+        String str = "I am Anutej, writing this to test frequency of charector in a string";
 
-        //UsingHashMap(str);
-        UsingASCII(str);
-    }
-
-
-    public static void UsingASCII(String str){
-
-        // write logic using ascii
-        String asc = "";
-        char[] ch = str.toCharArray();
-
-        // Loop to traverse string
-        for (int x : ch) {
-
-            // Append ASCII value of
-            // current string to asc
-            asc += Integer.toString((int)x);
-        }
-
-        // Stores frequency of digits
-        int[] freq = new int[10];
-
-        // Loop to traverse asc
-        for(int i = 0; i < asc.length(); i++) {
-            freq[asc.charAt(i) - '0']++;
-        }
-
-        // Print frequency of each digit
-        for (int i = 0; i < 10; i++) {
-            System.out.print(freq[i] + " ");
-        }
-
+        UsingHashMap(str);
     }
 
     public static void UsingHashMap(String str){
