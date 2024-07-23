@@ -14,8 +14,8 @@ public class MapDemo {
         Map<String, Integer> map = new HashMap<>();
 
         map.put("one", 1);
-        map.put("two", 2);
         map.put("three", 3);
+        map.put("two", 2);
 
 
         System.out.println(map);
