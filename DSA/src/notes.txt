@@ -1,0 +1,8 @@
+OOPs works on class & objects
+
+OOPs contains of
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Overriding overloading
+5. Encapsulation

@@ -1,9 +1,1 @@
-Done Write a program to remove duplicates from the array
 
-DONE WAP to return an object of duplicates
-     Input [10,10,11,12,13,11]
-     Output [10,11]
-
-DONE Character frequency count using maps
-
-DONE MoveNegativeToEnd
